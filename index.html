@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>books to read</h1>
+    <h2>Books to read</h2>
+    <h3>Books to read</h3>
+    <h4>Books to read</h4>
+    <h5>Books to read</h5>
+    <h6>Books to read</h6>
+    <p>There are lot of books to read</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quis eveniet dolore, consectetur omnis<br> excepturi voluptatem asperiores esse dolorem deserunt sunt, libero dignissimos ut tempora, maxime hic quod. Ut, et!</p>
+    <!-- Example of absolute link-->
+    <a href='https://github.com/'>Github</a>
+    <!-- Example of relative link-->
+    <br>
+    <a href='/about.html'>About</a>
+    <br>
+    <img src="/Tajmahal.jpg" alt="Taj Mahal" height="180">
+    <br>
+
+    <b>This is Bold</b>
+    <br>
+    <i>This is italic</i>
+    <br>
+    <u>This is underline</u>
+
+    <pre>product_links =[]
+        condition = True
+        while condition:
+            product_info = driver.find_elements_by_class_name('ProductGridItem__fixed__1w9d4')
+            for elem in product_info:
+                p_tag = elem.find_elements_by_tag_name('a')[2]
+                p_link = p_tag.get_property('href')
+                if p_link not in product_links:
+                    product_links.append(p_link)
+            try:
+                button = driver.find_elements_by_css_selector('.style__button__1KJD9')
+                button[0].click()
+                time.sleep(2)
+            except:
+                condition = False</pre>
+</body>
+</html>
