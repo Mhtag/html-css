@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 2px solid peru;
+            background-color: rgba(228, 208, 172, 0.945);
+            padding: 34px;
+            margin: 34px;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color:rgb(138, 81, 81);
+            background-color: rgb(230, 229, 227);
+        }
+        a:visited{
+            background-color: yellow;
+        }
+        a:active{
+            background-color: blue;
+        }
+        .btn{
+            background-color: rosybrown;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quo officiis eaque id laborum sit! Nisi consectetur reprehenderit, ex deleniti error eius quam quo earum ea neque, corrupti fugit accusamus fuga natus dolorum veniam non.</p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

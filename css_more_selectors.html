@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: tomato;
+            color: black;
+            text-align: center;
+        }
+        /* div p{
+            color: yellow;
+        } */
+        /* if p is the next sibling div */
+        /* div + p{
+            color: violet;
+        } */
+        /* if p is right inside div then this css will be applied */
+        div > p {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>More on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>thos is a paragraph inside li</p></li>
+            </ul>
+            <p>This is paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+</html>
